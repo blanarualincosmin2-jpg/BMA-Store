@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMA Store</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <header>
+        <h1>BMA Store</h1>
+        <p>Produse premium – Calitate garantată</p>
+    </header>
+
+    <section class="hero">
+        <h2>Bun venit în magazinul nostru!</h2>
+        <p>Descoperă cele mai noi oferte și produse.</p>
+        <a href="#produse" class="btn">Vezi produsele</a>
+    </section>
+
+    <section id="produse" class="produse">
+        <h2>Produse populare</h2>
+
+        <div class="grid">
+
+            <div class="produs">
+                <img src="https://via.placeholder.com/250" alt="Produs 1">
+                <h3>Produs 1</h3>
+                <p class="price">49.99 Lei</p>
+                <button>Adaugă în coș</button>
+            </div>
+
+            <div class="produs">
+                <img src="https://via.placeholder.com/250" alt="Produs 2">
+                <h3>Produs 2</h3>
+                <p class="price">89.99 Lei</p>
+                <button>Adaugă în coș</button>
+            </div>
+
+            <div class="produs">
+                <img src="https://via.placeholder.com/250" alt="Produs 3">
+                <h3>Produs 3</h3>
+                <p class="price">129.99 Lei</p>
+                <button>Adaugă în coș</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 BMA Store – Toate drepturile rezervate.</p>
+    </footer>
+
+</body>
+</html>
