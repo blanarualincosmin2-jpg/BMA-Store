@@ -57,3 +57,27 @@
     <script src="script.js"></script>
 </body>
 </html>
+<section class="products">
+    <h2>Produse disponibile</h2>
+
+    <div class="product">
+        <img src="images/laptop-1.png" alt="Laptop">
+        <h3>Laptop</h3>
+        <p>Performanță excelentă pentru muncă și entertainment.</p>
+        <span class="price">3500 RON</span>
+    </div>
+
+    <div class="product">
+        <img src="images/phone-1.png" alt="Telefon">
+        <h3>Telefon</h3>
+        <p>Rapid, elegant și cu baterie de lungă durată.</p>
+        <span class="price">2200 RON</span>
+    </div>
+
+    <div class="product">
+        <img src="images/watch-1.png" alt="Ceas">
+        <h3>Ceas Smart</h3>
+        <p>Monitorizare sănătate și notificări direct pe încheietură.</p>
+        <span class="price">600 RON</span>
+    </div>
+</section>
