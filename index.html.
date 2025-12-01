@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BMA Store - Promoții Electronice</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMA Store – Electronice Premium</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header class="hero">
-    <h1>BMA STORE</h1>
-    <p>Cel mai bun magazin de electronice în curs de dezvoltare</p>
-    <a href="#produse" class="btn">Vezi ofertele</a>
-  </header>
+    <header class="hero">
+        <nav class="navbar">
+            <h2 class="logo">BMA STORE</h2>
+            <a href="#produse" class="nav-btn">Produse</a>
+        </nav>
 
-  <section id="produse" class="products">
-    <h2>Produse populare</h2>
-    <div class="product-grid">
-      
-      <div class="product-card">
-        <img src="images/product1.png" alt="Produs 1">
-        <h3>Telefon Ultra Pro</h3>
-        <p>Performanță maximă • Cameră 108MP</p>
-        <span class="price">2499 lei</span>
-        <button>Cumpără</button>
-      </div>
+        <div class="hero-content">
+            <h1>Reduceri Premium la Electronice</h1>
+            <p>Prinde cele mai bune oferte la telefoane, smartwatch-uri și accesorii.</p>
+            <a href="#produse" class="btn-primary">Vezi Produsele</a>
+        </div>
+    </header>
 
-      <div class="product-card">
-        <img src="images/product2.png" alt="Produs 2">
-        <h3>Căști Wireless X10</h3>
-        <p>Baterie 48h • Bass puternic</p>
-        <span class="price">299 lei</span>
-        <button>Cumpără</button>
-      </div>
+    <section id="produse" class="products-section">
+        <h2>Produse Populare</h2>
 
-      <div class="product-card">
-        <img src="images/product3.png" alt="Produs 3">
-        <h3>Smartwatch Active</h3>
-        <p>Monitorizare sănătate • Notificări</p>
-        <span class="price">399 lei</span>
-        <button>Cumpără</button>
-      </div>
+        <div class="product-grid">
 
-    </div>
-  </section>
+            <div class="product-card">
+                <img src="images/telefon.jpg" alt="Telefon">
+                <h3>Telefon Ultra 5G</h3>
+                <p class="price">2.499 lei</p>
+                <a class="btn-buy" href="#">Cumpără</a>
+            </div>
 
-  <footer>
-    <p>BMA Store © 2025 • Toate drepturile rezervate</p>
-  </footer>
+            <div class="product-card">
+                <img src="images/smartwatch.jpg" alt="Smartwatch">
+                <h3>Smartwatch Pro</h3>
+                <p class="price">799 lei</p>
+                <a class="btn-buy" href="#">Cumpără</a>
+            </div>
 
+            <div class="product-card">
+                <img src="images/casti.jpg" alt="Căști">
+                <h3>Căști Wireless Bass</h3>
+                <p class="price">349 lei</p>
+                <a class="btn-buy" href="#">Cumpără</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 BMA Store | Creat cu ajutorul AI</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
