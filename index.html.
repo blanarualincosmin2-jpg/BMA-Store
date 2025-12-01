@@ -1,56 +1,53 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BMA Store</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMA Store - Promoții Electronice</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>BMA Store</h1>
-        <p>Produse premium – Calitate garantată</p>
-    </header>
+  <header class="hero">
+    <h1>BMA STORE</h1>
+    <p>Cel mai bun magazin de electronice în curs de dezvoltare</p>
+    <a href="#produse" class="btn">Vezi ofertele</a>
+  </header>
 
-    <section class="hero">
-        <h2>Bun venit în magazinul nostru!</h2>
-        <p>Descoperă cele mai noi oferte și produse.</p>
-        <a href="#produse" class="btn">Vezi produsele</a>
-    </section>
+  <section id="produse" class="products">
+    <h2>Produse populare</h2>
+    <div class="product-grid">
+      
+      <div class="product-card">
+        <img src="images/product1.png" alt="Produs 1">
+        <h3>Telefon Ultra Pro</h3>
+        <p>Performanță maximă • Cameră 108MP</p>
+        <span class="price">2499 lei</span>
+        <button>Cumpără</button>
+      </div>
 
-    <section id="produse" class="produse">
-        <h2>Produse populare</h2>
+      <div class="product-card">
+        <img src="images/product2.png" alt="Produs 2">
+        <h3>Căști Wireless X10</h3>
+        <p>Baterie 48h • Bass puternic</p>
+        <span class="price">299 lei</span>
+        <button>Cumpără</button>
+      </div>
 
-        <div class="grid">
+      <div class="product-card">
+        <img src="images/product3.png" alt="Produs 3">
+        <h3>Smartwatch Active</h3>
+        <p>Monitorizare sănătate • Notificări</p>
+        <span class="price">399 lei</span>
+        <button>Cumpără</button>
+      </div>
 
-            <div class="produs">
-                <img src="https://via.placeholder.com/250" alt="Produs 1">
-                <h3>Produs 1</h3>
-                <p class="price">49.99 Lei</p>
-                <button>Adaugă în coș</button>
-            </div>
+    </div>
+  </section>
 
-            <div class="produs">
-                <img src="https://via.placeholder.com/250" alt="Produs 2">
-                <h3>Produs 2</h3>
-                <p class="price">89.99 Lei</p>
-                <button>Adaugă în coș</button>
-            </div>
-
-            <div class="produs">
-                <img src="https://via.placeholder.com/250" alt="Produs 3">
-                <h3>Produs 3</h3>
-                <p class="price">129.99 Lei</p>
-                <button>Adaugă în coș</button>
-            </div>
-
-        </div>
-    </section>
-
-    <footer>
-        <p>© 2025 BMA Store – Toate drepturile rezervate.</p>
-    </footer>
+  <footer>
+    <p>BMA Store © 2025 • Toate drepturile rezervate</p>
+  </footer>
 
 </body>
 </html>
